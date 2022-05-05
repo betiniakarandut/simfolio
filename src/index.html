@@ -1,0 +1,365 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>[Betini] | Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Betini Akarandut</span>
+          <br />
+          I am The Developer You Need.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Hire Me!</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">More Of Me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I have passion for learning new skills and fitting well in any organization. I love the skills I honed and desire to be of importance to this great organization. <h1>I may not be the smartest here or out there but I promise to work harder than any one here. Put me to test. </h1>
+              </p>
+              <p class="about-wrapper__info-text">
+                 I believe we can make a good team together.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/betini.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">robofriends app</h3>
+                <div>
+                  <p class="mb-4">
+                    The robofriends is a fully responsive web app built using REACT(Create-React-App). This app will select different robots of your choice as you type in any letter in range.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://betiniakarandut.github.io/my-robofriends/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/betiniakarandut/my-robofriends"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project1.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">smart-brain app</h3>
+                <div>
+                  <p class="mb-4">
+                   The smart-brain app is a fully responsive real life app that I built using REACT (CREATE-REACT-APP for the Frontend), NODEJS and POSTGRESQL DATABASE (Backend). It can detect real faces by simply typing a unique image(jpg) url and clicking on Detect. Give it a try! 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://smart-brain2024.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/betiniakarandut/smart-brain"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project3.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Background-creator</h3>
+                <div>
+                  <p class="mb-4">
+                    The background-creator is a little but amazing color generator built using HTML and JAVASCRIPT with a few DOM manipulators. It is design to help starting developers/trainees to generate beautiful gradient backgrounds for their little projects.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://betiniakarandut.github.io/background-creator/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/betiniakarandut/background-creator"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project2.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">start-up landing page</h3>
+                <div>
+                  <p class="mb-4">
+                    start-up landing page is a fully responsive app. It is my first web app built using HTML, CSS and BOOTSTRAP 5. It is best used for sending mails to registered users and getting feedbacks. 
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://betiniakarandut.github.io/le-betini/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/betiniakarandut/le-betini"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project4.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">[Contact me: +2348118784874]</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:betiniakarandut@gmail.com"
+            >Email</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://twitter.com/zanelloris" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/betini-akarandut-24654321a/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/betiniakarandut" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2022 - Template made with love by
+          <a rel="noreferrer" href="https://github.com/betiniakarandut" target="_blank"
+            >Betini Akarandut</a
+          >
+        </p>
+
+        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
+       
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
